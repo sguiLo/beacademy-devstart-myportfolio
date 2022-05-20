@@ -94,7 +94,7 @@ header .container nav .menu-social {
     font-size: 1.8rem;
     line-height: 2.7rem;
     text-align: center;
-    color: rgba(106, 187, 52, 0.8);
+    color: rgba(95, 240, 126, 0.911);
 }
 
 .s-hero .container .title-box .techs {
@@ -107,5 +107,73 @@ header .container nav .menu-social {
 
 .s-hero .container .title-box .btn-primary {
     margin-top: 4rem;
-    padding: 1rem 5.6rem;
+    padding: 1rem;
+}
+
+/* Section Success */
+
+.s-success {
+    padding: 14.4rem 0;
+    margin: 0 auto;
+}
+
+.s-success .container{
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+}
+
+.s-success .container .cards {
+    display: flex;
+}
+
+.s-success .container .title-success h2 {
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.s-success .container .title-success h2 span {
+    font-weight: 800;
+}
+
+
+.s-success .container .cards .card {
+    width: 100%;
+    height: 30.4rem;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    margin-right: 3.1rem;
+    cursor: pointer;
+}
+
+.s-success .container .cards .card .card-title {
+    margin: 5rem 0;
+    padding-right: 14.5rem;
+    padding-left: 1.4rem;
+}
+
+/* Ativo */ 
+
+.s-success .container .cards .card.active {
+    background-color: var(--primary-color);
+
+}
+
+.s-success .container .cards .card .card-title h3 {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 6.4rem;
+    line-height: 7.7rem;
+    margin-bottom: 5.5rem;   
+}
+
+.s-success .container .cards .card .card-info {
+    padding-left: 1.4rem;
+}
+
+.s-success .container .cards .card .card-info p {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
 }
