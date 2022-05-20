@@ -94,5 +94,18 @@ header .container nav .menu-social {
     font-size: 1.8rem;
     line-height: 2.7rem;
     text-align: center;
-    color: rgba(220, 246, 75, 0.8);
+    color: rgba(106, 187, 52, 0.8);
+}
+
+.s-hero .container .title-box .techs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    margin-top: 2.3rem;
+}
+
+.s-hero .container .title-box .btn-primary {
+    margin-top: 4rem;
+    padding: 1rem 5.6rem;
 }
