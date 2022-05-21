@@ -94,7 +94,7 @@ header .container nav .menu-social {
     font-size: 1.8rem;
     line-height: 2.7rem;
     text-align: center;
-    color: #408377;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .s-hero .container .title-box .techs {
@@ -186,6 +186,78 @@ header .container nav .menu-social {
     line-height: 3.9rem;
 }
 
+/* About */
+
+.s-about {
+    background-color: var(--black-color-medium);
+    padding: 6rem 0rem;
+}
+
+.s-about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-about .container .about-me {
+    width: 100%;
+    max-width: 71rem;
+}
+
+.s-about .container .about-me h2 {
+    font-weight: 900;
+}
+
+.s-about .container .about-me p {
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--white-color-alpha);
+    margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.6rem;
+    margin-top: 3.2rem;  
+}
+
+.s-about .container .about-me ul li img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.s-about .container .my-picture img {
+    border-radius: 4px;
+    height: 368px;
+    width: 325px;
+}
+
+
+/* Cases */
+
+.s-cases {
+    padding: 5rem 0rem;
+}
+
+.s-cases .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-cases .container .title-cases {
+    margin-bottom: 7.4rem;
+}
+
+.s-cases .container .title-cases h2 {
+    font-weight: 900;
+}
+
+.s-cases .container .cases {
+    display: flex;
+    width: 100%;
+    gap: 0.8rem;
+}
 
 /* Footer */ 
 
