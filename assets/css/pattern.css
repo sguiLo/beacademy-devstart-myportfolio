@@ -70,6 +70,11 @@ h2 span {
     color: var(--primary-color);
     font-weight: 700;
     line-height: 2.4rem;
+    transition: color 0.2s;
+}
+
+.menu-item:hover {
+    color: var(--second-color);
 }
 
 
@@ -80,6 +85,7 @@ h2 span {
     font-size: 1.2rem;
     font-weight: 300;
     display: inline-block;
+    text-align: center;
 }
 
 input[type="text"],
